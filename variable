@@ -1,0 +1,12 @@
+# number1 = 2
+# print(number1) 
+# number1 = 4
+# print(number1)
+# string, numbere
+name = "AMAN"
+print(name)
+name = 123
+print(name)
+
+user_one_name = "AMAN RAJ"   #snake case writing
+userOneName = "RAJA"         #camel case writing
