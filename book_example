@@ -1,0 +1,13 @@
+class Book:
+    def __init__(self, book, name, price):
+        self.book = book
+        self.name = name
+        self.price = price
+        self.book_name_price = book + ' ' + name + ' ' + price
+
+book1 = Book('MAth', 'Algebra', '750')
+
+print(book1.book)
+print(book1.name)
+print(book1.price)
+print(book1.book_name_price)
