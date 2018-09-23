@@ -1,0 +1,14 @@
+class person:
+    count_instance = 0
+    def __init__(self, first_name, last_name, age):
+        person.count_instance += 1
+        self.first_name = first_name
+        self.last_name = last_name
+        self.age = age
+
+P1 = person ('AMAN','RAJ',23)
+P2 = person ('RAJA','KUMAR',22)
+P3 = person('ALOK','NATH',25)
+
+print(person.count_instance)
+        
